@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+
+labels = ['Matematika', 'Geografi', 'Informatika', 'Sejarah'] 
+quantity = [20, 15, 30, 18] 
+colors = ['yellowgreen', 'gold', 'lightskyblue', 'lightcoral']
+
+plt.title('Daftar Persentase Nilai Siswa Kelas X')
+plt.pie(quantity, labels-labels, colors=colors, autopct='%1.1f%%', shadow=True, startangle=90)
+
+plt.axis('equal')
+plt.show()
